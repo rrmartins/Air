@@ -1,0 +1,19 @@
+#!/bin/bash
+
+GEM=`which gem`
+if [[ $GEM == '' ]]; then
+    echo "Rubygem not installed; Install it or add into your PATH and re-run this script"
+    exit -1
+fi
+
+echo "* GEM found at $GEM"
+
+SQLITE_RUBY=`gem list sqlite3-ruby`
+if [[ $SQLITE_RUBY == '' ]]; then
+   echo "sqlite3-ruby not installed; Install it and re-run this script"
+   exit -1
+else
+    echo "* $SQLITE_RUBY found"
+fi
+
+echo -e "all:\n\t@clear\n\t@echo \"Iniciando app...\"\n\t@ruby main.rb" > Makefile

@@ -1,0 +1,44 @@
+== Bem vindo ao Air!
+
+=== Feito por Rodrigo Martins:
+
+http://www.rrmartins.com/
+http://www.twitter.com/rr_martins
+
+
+=== Como rodar?
+
+Vamos iniciar a configuração do ambiente, que é simples!
+Para iniciar, deve antes de mais nada, instalar o sqlite3.
+
+Caso vá executar em um Sistema Operacional Ubuntu, execute o comando:
+
+  $ sudo gem install sqlite3-ruby
+  
+Caso vá executar em um Sistema Operacional Mac OS X, execute o comando:
+
+  $ sudo port install sqlite3
+  
+
+=== Iniciando!
+
+Para iniciar vá na pasta do projeto e execute:
+
+  ./configure 
+
+Após, execute o comando abaixo para iniciar a app:
+  
+  make
+
+=== Lembrete
+
+Todas as vezes que for iniciar a app, digite o comando:
+
+  make
+
+
+=== Contato
+
+e-mail: rodrigo@rrmartins.com
+
+
