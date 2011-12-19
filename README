@@ -18,6 +18,7 @@ Caso vá executar em um Sistema Operacional Ubuntu, execute o comando:
 Caso vá executar em um Sistema Operacional Mac OS X, execute o comando:
 
   $ sudo port install sqlite3
+  $ sudo gem install sqlite3-ruby
   
 
 === Iniciando!
